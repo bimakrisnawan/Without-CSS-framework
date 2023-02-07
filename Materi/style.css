@@ -1,0 +1,20 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+.blink
+    {animation:blink-animation 1s steps(5, start) infinite;}
+    @keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
+    }
+.text_content2{
+    text-indent: 30px; line-height: 22px;
+}
+.style{
+    border: solid 3px rgba(0, 0, 0, 0.411);
+    background: rgba(100, 100, 100, 0.151);
+    padding: 15px; margin: 0;
+}
